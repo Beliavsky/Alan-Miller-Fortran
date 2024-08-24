@@ -2,7 +2,9 @@
 
 ### Linear Algebra
 [as6.f90](https://jblevins.org/mirror/amiller/as6.f90) Cholesky factorization of symmetric positive definite matrix with only lower triangle stored as a vector (2 versions).
+
 [as7.f90](https://jblevins.org/mirror/amiller/as7.f90) Inversion of symmetric positive definite matrix with only lower triangle stored as a vector using AS6 (2 versions). Includes short test program and interfaces.
+
 [as60.f90](https://jblevins.org/mirror/amiller/as60.f90) Calculates the eigenvalues/vectors of a real symmetric matrix.
 
 ### Optimization
