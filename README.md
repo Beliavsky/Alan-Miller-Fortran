@@ -21,6 +21,8 @@
 ### Optimization
 [as298.f90](https://jblevins.org/mirror/amiller/as298.f90) Hybrid minimization routine using simulated annealing and a user-supplied local minimizer. You should also look at Dr. Tibor Csendes' global optimization package.
 
+[as319.f90](https://jblevins.org/mirror/amiller/as319.f90) Variable metric unconstrained function minimization without derivatives.
+
 [conmin.zip](https://jblevins.org/mirror/amiller/conmin.zip) The classic CONMIN package for constrained minimization updated to Fortran 90. Test examples and the manual are included in the ZIP file. N.B. CONMIN is included as just one of the algorithms in TOMS algorithm 734 which can be downloaded from [netlib](http://www.netlib.org).
 
 [ga.zip](https://jblevins.org/mirror/amiller/ga.zip) A package for global minimization using genetic algorithms. Please note the copyright conditions if you want to use this for commercial purposes.
