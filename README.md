@@ -13,6 +13,8 @@
 
 [pikaia.zip](https://jblevins.org/mirror/amiller/pikaia.zip) Another genetic algorithm for global optimization without derivatives. This one comes from the High Altitude Observatory of NCAR. This is a ZIP file, containing a number of interesting examples. There is an excellent manual, but you will have to download it from their web site. N.B. The manual is 120 pages long, and in postscript. Where does the name Pikaia come from? Pikaia gracilens is a flattened worm-like beast about 5cm long which crawled in the mud on the sea floor about 530 million years ago!
 
+[solvopt.zip](https://jblevins.org/mirror/amiller/solvopt.zip) The SolvOpt package minimizes or maximizes nonlinear functions, which may be nonsmooth and may have constraints, using the so-called method of exact penalization. This is a zip file containing several driver programs.
+
 [tensolve.zip](https://jblevins.org/mirror/amiller/tensolve.zip) This contains both TOMS 739 (UNCMIN) for unconstrained minimization, and TOMS 768 (TENSOLVE) for the solution of sets of non-linear equations.
 
 [toms778.zip](https://jblevins.org/mirror/amiller/toms778.zip) This subroutine solves bound-constrained optimization problems by using the compact formula of the limited memory BFGS updates.
