@@ -41,4 +41,6 @@
 
 [toms778.zip](https://jblevins.org/mirror/amiller/toms778.zip) This subroutine solves bound-constrained optimization problems by using the compact formula of the limited memory BFGS updates.
 
+[toms813.zip](https://jblevins.org/mirror/amiller/toms813.zip) This package is for local minimization, with or without convex constraints. It requires the user to supply first derivatives. This version is in standard Fortran. It uses the so-called spectral projected gradient (SPG) method.
+
 [tron.zip](https://jblevins.org/mirror/amiller/tron.zip) Newton's method for large bound-constrained optimization problems by Chih-Jen Lin & Jorge More', a MINPACK-2 project.
