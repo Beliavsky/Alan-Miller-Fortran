@@ -7,6 +7,17 @@
 
 [as60.f90](https://jblevins.org/mirror/amiller/as60.f90) Calculates the eigenvalues/vectors of a real symmetric matrix.
 
+### Linear Regression
+[as110.f90](https://jblevins.org/mirror/amiller/as110.f90) Lp-norm fitting of straight lines, particularly for 1 <= p <= 2, by extension of an algorithm of Schlossmacher.
+
+[as132.f90](https://jblevins.org/mirror/amiller/as132.f90) Minimize the sum of absolute deviations for a simple Y on X linear regression.
+
+[as132.f90](https://jblevins.org/mirror/amiller/as132.f90) Minimize the sum of absolute deviations for a simple Y on X linear regression.
+
+[as135.f90](https://jblevins.org/mirror/amiller/as135.f90) Min-Max (L-infinity) estimates for linear multiple regression, includes a test program.
+
+[as282.f90](https://jblevins.org/mirror/amiller/as282.f90) Robust regression using the least median of squares (LMS) criterion. There is also a test program: [t_as282.f90](https://jblevins.org/mirror/amiller/t_as282.f90)
+
 ### Optimization
 [as298.f90](https://jblevins.org/mirror/amiller/as298.f90) Hybrid minimization routine using simulated annealing and a user-supplied local minimizer. You should also look at Dr. Tibor Csendes' global optimization package.
 
