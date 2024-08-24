@@ -23,6 +23,8 @@
 
 [as319.f90](https://jblevins.org/mirror/amiller/as319.f90) Variable metric unconstrained function minimization without derivatives.
 
+[cobyla.f90](https://jblevins.org/mirror/amiller/cobyla.f90) Mike Powell's routine for minimization of non-linear functions with smooth non-linear constraints, using local linear approximations to the constraints.
+
 [conmin.zip](https://jblevins.org/mirror/amiller/conmin.zip) The classic CONMIN package for constrained minimization updated to Fortran 90. Test examples and the manual are included in the ZIP file. N.B. CONMIN is included as just one of the algorithms in TOMS algorithm 734 which can be downloaded from [netlib](http://www.netlib.org).
 
 [ga.zip](https://jblevins.org/mirror/amiller/ga.zip) A package for global minimization using genetic algorithms. Please note the copyright conditions if you want to use this for commercial purposes.
@@ -44,3 +46,5 @@
 [toms813.zip](https://jblevins.org/mirror/amiller/toms813.zip) This package is for local minimization, with or without convex constraints. It requires the user to supply first derivatives. This version is in standard Fortran. It uses the so-called spectral projected gradient (SPG) method.
 
 [tron.zip](https://jblevins.org/mirror/amiller/tron.zip) Newton's method for large bound-constrained optimization problems by Chih-Jen Lin & Jorge More', a MINPACK-2 project.
+
+[uobyqa.f90](https://jblevins.org/mirror/amiller/uobyqa.f90) Mike Powell's package for unconstrained minimization when derivatives are not available. There is a test/driver program: [t_uobyqa.f90](https://jblevins.org/mirror/amiller/t_uobyqa.f90) and a file of results from the test program: [test.out](https://jblevins.org/mirror/amiller/test.out) The documentation, which is in gzipped postscript, can be downloaded from the [Optimization Decision Tree](https://plato.asu.edu/guide.html).
