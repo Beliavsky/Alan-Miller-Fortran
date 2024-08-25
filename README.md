@@ -39,6 +39,8 @@
 
 [tensolve.zip](https://jblevins.org/mirror/amiller/tensolve.zip) This contains both TOMS 739 (UNCMIN) for unconstrained minimization, and TOMS 768 (TENSOLVE) for the solution of sets of non-linear equations.
 
+[tn.zip](https://jblevins.org/mirror/amiller/tn.zip) Stephen Nash's truncated-Newton code for the minimization of continuous functions. It can use differences instead of derivatives, and bounds may be imposed on the parameters.
+
 [toms667.f90](https://jblevins.org/mirror/amiller/toms667.f90) Global minimization using a stochastic algorithm, with 37 test problems [test667.f90](https://jblevins.org/mirror/amiller/test667.f90). Many of the test problems require hundreds of thousands of function evaluations. See also global.f90 below in the miscellaneous code section.
 
 [toms778.zip](https://jblevins.org/mirror/amiller/toms778.zip) This subroutine solves bound-constrained optimization problems by using the compact formula of the limited memory BFGS updates.
