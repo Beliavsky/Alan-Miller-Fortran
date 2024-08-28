@@ -50,3 +50,18 @@
 [tron.zip](https://jblevins.org/mirror/amiller/tron.zip) Newton's method for large bound-constrained optimization problems by Chih-Jen Lin & Jorge More', a MINPACK-2 project.
 
 [uobyqa.f90](https://jblevins.org/mirror/amiller/uobyqa.f90) Mike Powell's package for unconstrained minimization when derivatives are not available. There is a test/driver program: [t_uobyqa.f90](https://jblevins.org/mirror/amiller/t_uobyqa.f90) and a file of results from the test program: [test.out](https://jblevins.org/mirror/amiller/test.out) The documentation, which is in gzipped postscript, can be downloaded from the [Optimization Decision Tree](https://plato.asu.edu/guide.html).
+
+### Uniform Random Number Generation
+[luxury.f90](https://jblevins.org/mirror/amiller/luxury.f90) Another generator of uniformly distributed random numbers. [luxtst.f90](https://jblevins.org/mirror/amiller/luxtst.f90) A program to test luxury.f90.
+
+[taus88.f90](https://jblevins.org/mirror/amiller/taus88.f90) L'Ecuyer's 1996 Tausworthe random number generator, and [lfsr113.f90](https://jblevins.org/mirror/amiller/lfsr113.f90) L'Ecuyer's 1999 Tausworthe random number generator. The first has a cycle of 2^88 while the second is a little slower but has a cycle of 2^113. Both are translations from C. N.B. These both assume that default integers are 32-bit.
+
+[lfsr258.f90](https://jblevins.org/mirror/amiller/lfsr258.f90) A 64-bit random number generator from Pierre L'Ecuyer with a cycle of about 2^258 or more than 10^77.
+
+[dprand.f90](https://jblevins.org/mirror/amiller/dprand.f90) Nick Maclaren's double precision random number generator, translated into ELF90-compatible form.
+
+[mt19937.f90](https://jblevins.org/mirror/amiller/mt19937.f90) The 'Mersenne Twister' random number generator from Japan with a cycle of length (2^19937 - 1). [mt19937a.f90](https://jblevins.org/mirror/amiller/mt19937a.f90) is a version for compilers which stop when there are integer overflows, as some do when compiler check options are enabled for debugging purposes. Before using this module, you are advised to scan the [Japanese web site](https://www.math.keio.ac.jp/~matumoto/emt.html) particularly under `Initialization'. mt19937.f90 was revised on 5 February 2002; mt19937a.f90 has not been revised.
+
+[rand3.f90](https://jblevins.org/mirror/amiller/rand3.f90) Yet another random number generator; this one is based upon an algorithm by Donald Knuth (1997).
+
+[freq2d.f90](https://jblevins.org/mirror/amiller/freq2d.f90) Pairs of uniform random numbers should be uniformly distributed in the unit square. This is a simple test program which failed using a new (1998) compiler. ELF90-compatible.
